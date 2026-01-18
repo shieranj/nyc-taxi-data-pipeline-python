@@ -65,11 +65,12 @@ DISCORD_CONFIG = {
 
 Terima kasih atas perhatiannya.
     """,
-    "username" : "Shieran_JCDEAH007"
+    "username" : "Shieran"
     },
+    
     "capstone1": {
     "discord_webhook_url": os.getenv('DISCORD_WEBHOOK_URL_CAPSTONE'),
-    "content" :"""Halo Kak,
+    "content" :"""
 
 Berikut penggunaan discord webhook dan ringkasan agregasi data dari Green & Yellow Taxi bulan Januari 2025.
 Seluruh data telah melalui proses transformasi, berupa pembersihan nama kolom dan baris data. Hasil agregasi meliputi:
@@ -82,7 +83,7 @@ Seluruh data telah melalui proses transformasi, berupa pembersihan nama kolom da
 
 Terima kasih atas perhatiannya.
     """,
-    "username" : "Shieran_JCDEAH007"
+    "username" : "Shieran"
     }
 }
 
@@ -113,9 +114,9 @@ def main():
 
         #send notification DISCORD
         logging.info("Sending to Discord...")
-        for space, cfg in DISCORD_CONFIG.items():
-            discord_webhook(**cfg)
-            logging.info(f"Webhook send to {space}")
+        for url, content in DISCORD_CONFIG.items():
+            discord_webhook(**content)
+            logging.info(f"Webhook send to {url}")
     except Exception as e:
         logging.error(f"Transformation & Notification fails due to {e}")
 
