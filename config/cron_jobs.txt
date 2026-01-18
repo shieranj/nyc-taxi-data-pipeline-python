@@ -1,0 +1,3 @@
+32 08 * * * cd /workspace && bash scripts/extraction_and_loading.sh 
+45 08 * * * cd /workspace && bash scripts/transformation_and_notification.sh
+

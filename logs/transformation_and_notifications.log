@@ -1,0 +1,53 @@
+2025-11-01 08:45:02,185 - INFO - ================================================================================
+2025-11-01 08:45:02,186 - INFO - Transformation & Notification Starting...
+2025-11-01 08:45:02,186 - INFO - ================================================================================
+2025-11-01 08:45:02,186 - INFO - Reading from Postgres
+2025-11-01 08:45:02,211 - INFO - Connected to Postgres purwadhika_capstone1
+2025-11-01 08:45:02,211 - INFO - Querying from table nyc_yellow_2025-01
+2025-11-01 08:45:50,425 - INFO - Saving dataframe from table nyc_yellow_2025-01
+2025-11-01 08:45:50,426 - INFO - Querying from table nyc_green_2025-01
+2025-11-01 08:45:51,185 - INFO - Saving dataframe from table nyc_green_2025-01
+2025-11-01 08:45:51,186 - INFO - Connection to Postgres closed!
+2025-11-01 08:45:51,187 - INFO - Transforming data...
+2025-11-01 08:45:51,188 - INFO - Transforming nyc_yellow_2025-01...
+2025-11-01 08:45:51,481 - INFO - Succesfully clean columns!
+2025-11-01 08:45:51,482 - INFO - Columns after cleaning: ['vendor_id', 'tpep_pickup_datetime', 'tpep_dropoff_datetime', 'passenger_count', 'trip_distance', 'ratecode_id', 'pu_location_id', 'do_location_id', 'payment_type', 'fare_amount', 'extra', 'mta_tax', 'tip_amount', 'tolls_amount', 'improvement_surcharge', 'total_amount', 'congestion_surcharge', 'airport_fee', 'cbd_congestion_fee', 'run_id', 'extraction_timestamp', 'load_time']
+2025-11-01 08:45:51,776 - INFO - Succesfully clean values!
+2025-11-01 08:45:51,777 - INFO - Transformation successful for nyc_yellow_2025-01 (3,253,832 rows)
+2025-11-01 08:45:51,778 - INFO - Transforming nyc_green_2025-01...
+2025-11-01 08:45:51,783 - INFO - Succesfully clean columns!
+2025-11-01 08:45:51,784 - INFO - Columns after cleaning: ['vendor_id', 'lpep_pickup_datetime', 'lpep_dropoff_datetime', 'ratecode_id', 'pu_location_id', 'do_location_id', 'passenger_count', 'trip_distance', 'fare_amount', 'extra', 'mta_tax', 'tip_amount', 'tolls_amount', 'improvement_surcharge', 'total_amount', 'payment_type', 'trip_type', 'congestion_surcharge', 'cbd_congestion_fee', 'run_id', 'extraction_timestamp', 'load_time']
+2025-11-01 08:45:51,791 - INFO - Succesfully clean values!
+2025-11-01 08:45:51,792 - INFO - Transformation successful for nyc_green_2025-01 (45,537 rows)
+2025-11-01 08:45:51,793 - INFO - Starting Aggregation...
+2025-11-01 08:45:51,793 - INFO - Creating csv from nyc_yellow_2025-01 aggregations
+2025-11-01 08:45:52,387 - INFO -  nyc_yellow_2025-01 agreggations saved to data/aggregation
+2025-11-01 08:45:52,387 - INFO - Creating csv from nyc_green_2025-01 aggregations
+2025-11-01 08:45:52,470 - INFO -  nyc_green_2025-01 agreggations saved to data/aggregation
+2025-11-01 08:45:52,470 - INFO - SMTP starting...
+2025-11-01 08:45:52,478 - INFO - found 10 in data/aggregation
+2025-11-01 08:45:52,482 - INFO - Attached nyc_green_2025-01_payment_methods.csv!
+2025-11-01 08:45:52,487 - INFO - Attached nyc_green_2025-01_trips_by_run.csv!
+2025-11-01 08:45:52,490 - INFO - Attached nyc_green_2025-01_vendor_performance.csv!
+2025-11-01 08:45:52,492 - INFO - Attached nyc_green_2025-01_vendor_revenue.csv!
+2025-11-01 08:45:52,495 - INFO - Attached nyc_green_2025-01_vendor_tips.csv!
+2025-11-01 08:45:52,501 - INFO - Attached nyc_yellow_2025-01_payment_methods.csv!
+2025-11-01 08:45:52,505 - INFO - Attached nyc_yellow_2025-01_trips_by_run.csv!
+2025-11-01 08:45:52,508 - INFO - Attached nyc_yellow_2025-01_vendor_performance.csv!
+2025-11-01 08:45:52,511 - INFO - Attached nyc_yellow_2025-01_vendor_revenue.csv!
+2025-11-01 08:45:52,513 - INFO - Attached nyc_yellow_2025-01_vendor_tips.csv!
+2025-11-01 08:45:52,514 - INFO - Sending email...
+2025-11-01 08:45:56,282 - INFO - Email sent successfully to samsudiney@gmail.com
+2025-11-01 08:45:56,467 - INFO - Sending to Discord...
+2025-11-01 08:45:56,908 - INFO - Sucessfully send to discord channel! - status code 204
+2025-11-01 08:45:56,910 - INFO - Webhook send to personal
+2025-11-01 08:45:57,701 - INFO - Sucessfully send to discord channel! - status code 204
+2025-11-01 08:45:57,703 - INFO - Webhook send to capstone1
+mail...
+2025-11-01 08:45:56,282 - INFO - Email sent successfully to samsudiney@gmail.com
+2025-11-01 08:45:56,467 - INFO - Sending to Discord...
+2025-11-01 08:45:56,908 - INFO - Sucessfully send to discord channel! - status code 204
+2025-11-01 08:45:56,910 - INFO - Webhook send to personal
+2025-11-01 08:45:57,701 - INFO - Sucessfully send to discord channel! - status code 204
+2025-11-01 08:45:57,703 - INFO - Webhook send to capstone1
+[2025-11-01 08:45:57] Transformation & Notifications pipeline completed successfully
