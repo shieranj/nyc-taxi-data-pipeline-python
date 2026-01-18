@@ -1,0 +1,121 @@
+2025-11-01 08:32:03,703 - INFO - ================================================================================
+2025-11-01 08:32:03,704 - INFO - Extraction Starting...
+2025-11-01 08:32:03,704 - INFO - ================================================================================
+2025-11-01 08:32:05,019 - INFO - Found link: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-01.parquet
+2025-11-01 08:32:05,021 - INFO - Found link: https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-01.parquet
+2025-11-01 08:32:05,022 - INFO - Reading yellow taxi data from https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-01.parquet...
+2025-11-01 08:32:17,835 - INFO - Successfully read yellow taxi data from https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2025-01.parquet, total: 3475226 rows
+2025-11-01 08:32:17,836 - INFO - Reading green taxi data from https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-01.parquet...
+2025-11-01 08:32:19,214 - INFO - Successfully read green taxi data from https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2025-01.parquet, total: 48326 rows
+2025-11-01 08:32:20,070 - INFO - Filtered yellow taxi: 363,772 records for day_of_week=0
+2025-11-01 08:32:20,097 - INFO - Filtered green taxi: 5,953 records for day_of_week=0
+2025-11-01 08:32:20,100 - INFO - Added metadata to yellow taxi data (run_id=1)
+2025-11-01 08:32:20,102 - INFO - Added metadata to green taxi data (run_id=1)
+2025-11-01 08:32:27,296 - INFO - Saved 363772 records to data/raw/yellow_run1_monday_20251101_083220.csv
+2025-11-01 08:32:27,422 - INFO - Saved 5953 records to data/raw/green_run1_monday_20251101_083220.csv
+2025-11-01 08:32:27,894 - INFO - Filtered yellow taxi: 453,993 records for day_of_week=1
+2025-11-01 08:32:27,916 - INFO - Filtered green taxi: 6,993 records for day_of_week=1
+2025-11-01 08:32:27,919 - INFO - Added metadata to yellow taxi data (run_id=2)
+2025-11-01 08:32:27,921 - INFO - Added metadata to green taxi data (run_id=2)
+2025-11-01 08:32:36,783 - INFO - Saved 453993 records to data/raw/yellow_run2_tuesday_20251101_083227.csv
+2025-11-01 08:32:36,928 - INFO - Saved 6993 records to data/raw/green_run2_tuesday_20251101_083227.csv
+2025-11-01 08:32:37,490 - INFO - Filtered yellow taxi: 577,375 records for day_of_week=2
+2025-11-01 08:32:37,513 - INFO - Filtered green taxi: 8,133 records for day_of_week=2
+2025-11-01 08:32:37,517 - INFO - Added metadata to yellow taxi data (run_id=3)
+2025-11-01 08:32:37,518 - INFO - Added metadata to green taxi data (run_id=3)
+2025-11-01 08:32:48,388 - INFO - Saved 577375 records to data/raw/yellow_run3_wednesday_20251101_083237.csv
+2025-11-01 08:32:48,538 - INFO - Saved 8133 records to data/raw/green_run3_wednesday_20251101_083237.csv
+2025-11-01 08:32:48,968 - INFO - Filtered yellow taxi: 614,230 records for day_of_week=3
+2025-11-01 08:32:48,992 - INFO - Filtered green taxi: 9,051 records for day_of_week=3
+2025-11-01 08:32:48,996 - INFO - Added metadata to yellow taxi data (run_id=4)
+2025-11-01 08:32:48,998 - INFO - Added metadata to green taxi data (run_id=4)
+2025-11-01 08:33:00,615 - INFO - Saved 614230 records to data/raw/yellow_run4_thursday_20251101_083248.csv
+2025-11-01 08:33:00,795 - INFO - Saved 9051 records to data/raw/green_run4_thursday_20251101_083248.csv
+2025-11-01 08:33:01,326 - INFO - Filtered yellow taxi: 586,863 records for day_of_week=4
+2025-11-01 08:33:01,415 - INFO - Filtered green taxi: 8,405 records for day_of_week=4
+2025-11-01 08:33:01,418 - INFO - Added metadata to yellow taxi data (run_id=5)
+2025-11-01 08:33:01,419 - INFO - Added metadata to green taxi data (run_id=5)
+2025-11-01 08:33:12,260 - INFO - Saved 586863 records to data/raw/yellow_run5_friday_20251101_083301.csv
+2025-11-01 08:33:12,426 - INFO - Saved 8405 records to data/raw/green_run5_friday_20251101_083301.csv
+2025-11-01 08:33:12,826 - INFO - Filtered yellow taxi: 476,399 records for day_of_week=5
+2025-11-01 08:33:12,849 - INFO - Filtered green taxi: 5,097 records for day_of_week=5
+2025-11-01 08:33:12,853 - INFO - Added metadata to yellow taxi data (run_id=6)
+2025-11-01 08:33:12,855 - INFO - Added metadata to green taxi data (run_id=6)
+2025-11-01 08:33:21,758 - INFO - Saved 476399 records to data/raw/yellow_run6_saturday_20251101_083312.csv
+2025-11-01 08:33:21,857 - INFO - Saved 5097 records to data/raw/green_run6_saturday_20251101_083312.csv
+2025-11-01 08:33:22,258 - INFO - Filtered yellow taxi: 402,594 records for day_of_week=6
+2025-11-01 08:33:22,280 - INFO - Filtered green taxi: 4,694 records for day_of_week=6
+2025-11-01 08:33:22,283 - INFO - Added metadata to yellow taxi data (run_id=7)
+2025-11-01 08:33:22,284 - INFO - Added metadata to green taxi data (run_id=7)
+2025-11-01 08:33:29,937 - INFO - Saved 402594 records to data/raw/yellow_run7_sunday_20251101_083322.csv
+2025-11-01 08:33:30,024 - INFO - Saved 4694 records to data/raw/green_run7_sunday_20251101_083322.csv
+2025-11-01 08:33:30,258 - INFO - Combined yellow: 3475226 rows
+2025-11-01 08:33:30,261 - INFO - Combined green: 48326 rows
+2025-11-01 08:33:30,274 - INFO - Extraction Success!
+2025-11-01 08:33:30,275 - INFO - ================================================================================
+2025-11-01 08:33:30,277 - INFO - Loading to Postgres Starting...
+2025-11-01 08:33:30,278 - INFO - ================================================================================
+2025-11-01 08:33:30,279 - INFO - Loading per run_id...
+2025-11-01 08:33:30,331 - INFO - Connected to postgreSQL purwadhika_capstone1
+2025-11-01 08:33:30,332 - INFO - Loading run 1
+2025-11-01 08:33:30,352 - INFO - table nyc_yellow_2025-01 does not exists - creating...
+2025-11-01 08:33:30,381 - INFO - Table nyc_yellow_2025-01 created!
+2025-11-01 08:33:30,381 - INFO - nyc_yellow_2025-01 table created successfully
+2025-11-01 08:33:59,223 - INFO - Inserted 363772 rows into nyc_yellow_2025-01
+2025-11-01 08:33:59,456 - INFO - Records successfully inserted to nyc_yellow_2025-01
+2025-11-01 08:33:59,457 - INFO - yellow: Run 1 Loaded!
+2025-11-01 08:33:59,463 - INFO - table nyc_green_2025-01 does not exists - creating...
+2025-11-01 08:33:59,489 - INFO - Table nyc_green_2025-01 created!
+2025-11-01 08:33:59,489 - INFO - nyc_green_2025-01 table created successfully
+2025-11-01 08:34:00,016 - INFO - Inserted 5953 rows into nyc_green_2025-01
+2025-11-01 08:34:00,019 - INFO - Records successfully inserted to nyc_green_2025-01
+2025-11-01 08:34:00,020 - INFO - green: Run 1 Loaded!
+2025-11-01 08:34:00,020 - INFO - Loading run 2
+2025-11-01 08:34:35,786 - INFO - Inserted 453993 rows into nyc_yellow_2025-01
+2025-11-01 08:34:35,953 - INFO - Records successfully inserted to nyc_yellow_2025-01
+2025-11-01 08:34:35,954 - INFO - yellow: Run 2 Loaded!
+2025-11-01 08:34:36,588 - INFO - Inserted 6993 rows into nyc_green_2025-01
+2025-11-01 08:34:36,590 - INFO - Records successfully inserted to nyc_green_2025-01
+2025-11-01 08:34:36,591 - INFO - green: Run 2 Loaded!
+2025-11-01 08:34:36,591 - INFO - Loading run 3
+2025-11-01 08:35:22,492 - INFO - Inserted 577375 rows into nyc_yellow_2025-01
+2025-11-01 08:35:22,785 - INFO - Records successfully inserted to nyc_yellow_2025-01
+2025-11-01 08:35:22,786 - INFO - yellow: Run 3 Loaded!
+2025-11-01 08:35:23,456 - INFO - Inserted 8133 rows into nyc_green_2025-01
+2025-11-01 08:35:23,459 - INFO - Records successfully inserted to nyc_green_2025-01
+2025-11-01 08:35:23,460 - INFO - green: Run 3 Loaded!
+2025-11-01 08:35:23,460 - INFO - Loading run 4
+2025-11-01 08:36:11,390 - INFO - Inserted 614230 rows into nyc_yellow_2025-01
+2025-11-01 08:36:11,692 - INFO - Records successfully inserted to nyc_yellow_2025-01
+2025-11-01 08:36:11,693 - INFO - yellow: Run 4 Loaded!
+2025-11-01 08:36:12,431 - INFO - Inserted 9051 rows into nyc_green_2025-01
+2025-11-01 08:36:12,434 - INFO - Records successfully inserted to nyc_green_2025-01
+2025-11-01 08:36:12,434 - INFO - green: Run 4 Loaded!
+2025-11-01 08:36:12,434 - INFO - Loading run 5
+2025-11-01 08:36:59,965 - INFO - Inserted 586863 rows into nyc_yellow_2025-01
+2025-11-01 08:37:00,227 - INFO - Records successfully inserted to nyc_yellow_2025-01
+2025-11-01 08:37:00,228 - INFO - yellow: Run 5 Loaded!
+2025-11-01 08:37:00,921 - INFO - Inserted 8405 rows into nyc_green_2025-01
+2025-11-01 08:37:00,924 - INFO - Records successfully inserted to nyc_green_2025-01
+2025-11-01 08:37:00,925 - INFO - green: Run 5 Loaded!
+2025-11-01 08:37:00,925 - INFO - Loading run 6
+2025-11-01 08:37:38,601 - INFO - Inserted 476399 rows into nyc_yellow_2025-01
+2025-11-01 08:37:38,780 - INFO - Records successfully inserted to nyc_yellow_2025-01
+2025-11-01 08:37:38,781 - INFO - yellow: Run 6 Loaded!
+2025-11-01 08:37:39,216 - INFO - Inserted 5097 rows into nyc_green_2025-01
+2025-11-01 08:37:39,218 - INFO - Records successfully inserted to nyc_green_2025-01
+2025-11-01 08:37:39,218 - INFO - green: Run 6 Loaded!
+2025-11-01 08:37:39,218 - INFO - Loading run 7
+2025-11-01 08:38:11,529 - INFO - Inserted 402594 rows into nyc_yellow_2025-01
+2025-11-01 08:38:11,690 - INFO - Records successfully inserted to nyc_yellow_2025-01
+2025-11-01 08:38:11,691 - INFO - yellow: Run 7 Loaded!
+2025-11-01 08:38:12,134 - INFO - Inserted 4694 rows into nyc_green_2025-01
+2025-11-01 08:38:12,139 - INFO - Records successfully inserted to nyc_green_2025-01
+2025-11-01 08:38:12,140 - INFO - green: Run 7 Loaded!
+2025-11-01 08:38:12,140 - INFO - Connection to Postgres closed
+2025-11-01 08:38:12,141 - INFO - ================================================================================
+2025-11-01 08:38:12,142 - INFO - Loading to Postgres Completed...
+2025-11-01 08:38:12,142 - INFO - ================================================================================
+1-01 08:38:12,142 - INFO - Loading to Postgres Completed...
+2025-11-01 08:38:12,142 - INFO - ================================================================================
+[2025-11-01 08:38:12] Extraction & Loading pipeline completed successfully
